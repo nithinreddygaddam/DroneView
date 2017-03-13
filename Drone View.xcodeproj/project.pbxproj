@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		089E22694F1CCA9C103E580C /* Pods_Drone_ViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74A8E94242FDB78475B86AC /* Pods_Drone_ViewUITests.framework */; };
+		1C405FFD4DB4041656B328C0 /* Pods_Drone_ViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A6748D7D856689AD56FF5C /* Pods_Drone_ViewTests.framework */; };
+		59C430FE1E772C09008E741F /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C430FC1E772C09008E741F /* DJISDK.framework */; };
+		59C430FF1E772C09008E741F /* VideoPreviewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C430FD1E772C09008E741F /* VideoPreviewer.framework */; };
+		59C431001E772C12008E741F /* VideoPreviewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C430FD1E772C09008E741F /* VideoPreviewer.framework */; };
+		59C431011E772C12008E741F /* VideoPreviewer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 59C430FD1E772C09008E741F /* VideoPreviewer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		59FC6F991E6F772600E6B52F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC6F981E6F772600E6B52F /* AppDelegate.swift */; };
-		59FC6F9B1E6F772600E6B52F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC6F9A1E6F772600E6B52F /* ViewController.swift */; };
-		59FC6F9E1E6F772600E6B52F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59FC6F9C1E6F772600E6B52F /* Main.storyboard */; };
 		59FC6FA01E6F772600E6B52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59FC6F9F1E6F772600E6B52F /* Assets.xcassets */; };
 		59FC6FA31E6F772600E6B52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59FC6FA11E6F772600E6B52F /* LaunchScreen.storyboard */; };
 		59FC6FAE1E6F772600E6B52F /* Drone_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC6FAD1E6F772600E6B52F /* Drone_ViewTests.swift */; };
 		59FC6FB91E6F772600E6B52F /* Drone_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC6FB81E6F772600E6B52F /* Drone_ViewUITests.swift */; };
+		5DC02AF516B66BF050D1F4FF /* Pods_Drone_View.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAB98AC5F7D4F1ED1008236 /* Pods_Drone_View.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +38,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		59C431021E772C12008E741F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				59C431011E772C12008E741F /* VideoPreviewer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0DDF8D93B468AE2B265A5FCA /* Pods-Drone ViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drone ViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Drone ViewTests/Pods-Drone ViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DB677D73A04FC269BCDD2BA /* Pods-Drone ViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drone ViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Drone ViewTests/Pods-Drone ViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		59C430FC1E772C09008E741F /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJISDK.framework; path = "Drone View/Frameworks/DJISDK.framework"; sourceTree = "<group>"; };
+		59C430FD1E772C09008E741F /* VideoPreviewer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoPreviewer.framework; path = "Drone View/Frameworks/VideoPreviewer.framework"; sourceTree = "<group>"; };
 		59FC6F951E6F772600E6B52F /* Drone View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drone View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FC6F981E6F772600E6B52F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59FC6F9A1E6F772600E6B52F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		59FC6F9D1E6F772600E6B52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59FC6F9F1E6F772600E6B52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59FC6FA21E6F772600E6B52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59FC6FA41E6F772600E6B52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +68,13 @@
 		59FC6FB41E6F772600E6B52F /* Drone ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drone ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FC6FB81E6F772600E6B52F /* Drone_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drone_ViewUITests.swift; sourceTree = "<group>"; };
 		59FC6FBA1E6F772600E6B52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAAB98AC5F7D4F1ED1008236 /* Pods_Drone_View.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drone_View.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A6748D7D856689AD56FF5C /* Pods_Drone_ViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drone_ViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD59A2C4135E2E9B8C43F031 /* Pods-Drone ViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drone ViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Drone ViewUITests/Pods-Drone ViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF34BC0F0EDD6F0BA219EC49 /* Pods-Drone View.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drone View.release.xcconfig"; path = "Pods/Target Support Files/Pods-Drone View/Pods-Drone View.release.xcconfig"; sourceTree = "<group>"; };
+		DBFBEBC0BD78D54426C4D010 /* Pods-Drone View.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drone View.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Drone View/Pods-Drone View.debug.xcconfig"; sourceTree = "<group>"; };
+		E2D02513476E2A0D3A26D371 /* Pods-Drone ViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drone ViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Drone ViewUITests/Pods-Drone ViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F74A8E94242FDB78475B86AC /* Pods_Drone_ViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drone_ViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C431001E772C12008E741F /* VideoPreviewer.framework in Frameworks */,
+				5DC02AF516B66BF050D1F4FF /* Pods_Drone_View.framework in Frameworks */,
+				59C430FE1E772C09008E741F /* DJISDK.framework in Frameworks */,
+				59C430FF1E772C09008E741F /* VideoPreviewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C405FFD4DB4041656B328C0 /* Pods_Drone_ViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				089E22694F1CCA9C103E580C /* Pods_Drone_ViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +115,8 @@
 				59FC6FAC1E6F772600E6B52F /* Drone ViewTests */,
 				59FC6FB71E6F772600E6B52F /* Drone ViewUITests */,
 				59FC6F961E6F772600E6B52F /* Products */,
+				8C62C147AC37E7B5CD9B1EF0 /* Pods */,
+				94A0C8CA874C243E69098E7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				59FC6F981E6F772600E6B52F /* AppDelegate.swift */,
-				59FC6F9A1E6F772600E6B52F /* ViewController.swift */,
-				59FC6F9C1E6F772600E6B52F /* Main.storyboard */,
 				59FC6F9F1E6F772600E6B52F /* Assets.xcassets */,
 				59FC6FA11E6F772600E6B52F /* LaunchScreen.storyboard */,
 				59FC6FA41E6F772600E6B52F /* Info.plist */,
@@ -125,6 +159,31 @@
 			path = "Drone ViewUITests";
 			sourceTree = "<group>";
 		};
+		8C62C147AC37E7B5CD9B1EF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBFBEBC0BD78D54426C4D010 /* Pods-Drone View.debug.xcconfig */,
+				BF34BC0F0EDD6F0BA219EC49 /* Pods-Drone View.release.xcconfig */,
+				0DDF8D93B468AE2B265A5FCA /* Pods-Drone ViewTests.debug.xcconfig */,
+				4DB677D73A04FC269BCDD2BA /* Pods-Drone ViewTests.release.xcconfig */,
+				E2D02513476E2A0D3A26D371 /* Pods-Drone ViewUITests.debug.xcconfig */,
+				BD59A2C4135E2E9B8C43F031 /* Pods-Drone ViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94A0C8CA874C243E69098E7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59C430FC1E772C09008E741F /* DJISDK.framework */,
+				59C430FD1E772C09008E741F /* VideoPreviewer.framework */,
+				AAAB98AC5F7D4F1ED1008236 /* Pods_Drone_View.framework */,
+				B4A6748D7D856689AD56FF5C /* Pods_Drone_ViewTests.framework */,
+				F74A8E94242FDB78475B86AC /* Pods_Drone_ViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +191,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59FC6FBD1E6F772600E6B52F /* Build configuration list for PBXNativeTarget "Drone View" */;
 			buildPhases = (
+				9F93A3B930B615842BA80BDD /* [CP] Check Pods Manifest.lock */,
 				59FC6F911E6F772600E6B52F /* Sources */,
 				59FC6F921E6F772600E6B52F /* Frameworks */,
 				59FC6F931E6F772600E6B52F /* Resources */,
+				42E0B119A42EF4B51FA42A71 /* [CP] Embed Pods Frameworks */,
+				0B10901B11394857F095DAB5 /* [CP] Copy Pods Resources */,
+				59C431021E772C12008E741F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59FC6FC01E6F772600E6B52F /* Build configuration list for PBXNativeTarget "Drone ViewTests" */;
 			buildPhases = (
+				4E48116DE48E7BAAAEFFAFE4 /* [CP] Check Pods Manifest.lock */,
 				59FC6FA51E6F772600E6B52F /* Sources */,
 				59FC6FA61E6F772600E6B52F /* Frameworks */,
 				59FC6FA71E6F772600E6B52F /* Resources */,
+				EE2B3B72C805CBE689BD138E /* [CP] Embed Pods Frameworks */,
+				E5057FC31C88A177621C42C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59FC6FC31E6F772600E6B52F /* Build configuration list for PBXNativeTarget "Drone ViewUITests" */;
 			buildPhases = (
+				93D8BBCF626038131407C9AD /* [CP] Check Pods Manifest.lock */,
 				59FC6FB01E6F772600E6B52F /* Sources */,
 				59FC6FB11E6F772600E6B52F /* Frameworks */,
 				59FC6FB21E6F772600E6B52F /* Resources */,
+				FAEC18879909E97F1A3DCF41 /* [CP] Embed Pods Frameworks */,
+				ED450897C3A1216C0E489BFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +306,6 @@
 			files = (
 				59FC6FA31E6F772600E6B52F /* LaunchScreen.storyboard in Resources */,
 				59FC6FA01E6F772600E6B52F /* Assets.xcassets in Resources */,
-				59FC6F9E1E6F772600E6B52F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +325,149 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B10901B11394857F095DAB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drone View/Pods-Drone View-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42E0B119A42EF4B51FA42A71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drone View/Pods-Drone View-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E48116DE48E7BAAAEFFAFE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93D8BBCF626038131407C9AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F93A3B930B615842BA80BDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5057FC31C88A177621C42C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drone ViewTests/Pods-Drone ViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED450897C3A1216C0E489BFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drone ViewUITests/Pods-Drone ViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2B3B72C805CBE689BD138E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drone ViewTests/Pods-Drone ViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAEC18879909E97F1A3DCF41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drone ViewUITests/Pods-Drone ViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		59FC6F911E6F772600E6B52F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59FC6F9B1E6F772600E6B52F /* ViewController.swift in Sources */,
 				59FC6F991E6F772600E6B52F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +504,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		59FC6F9C1E6F772600E6B52F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				59FC6F9D1E6F772600E6B52F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		59FC6FA11E6F772600E6B52F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,12 +608,20 @@
 		};
 		59FC6FBE1E6F772600E6B52F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBFBEBC0BD78D54426C4D010 /* Pods-Drone View.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3FYM93LDK9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Drone\\ View/Frameworks",
+					"$(PROJECT_DIR)/Drone\\ View/Frameworks",
+					"$(PROJECT_DIR)/Drone\\ View/Frameworks",
+				);
 				INFOPLIST_FILE = "Drone View/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nrg.drone.view.Drone-View";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nrg.Drone-View";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,12 +629,20 @@
 		};
 		59FC6FBF1E6F772600E6B52F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF34BC0F0EDD6F0BA219EC49 /* Pods-Drone View.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3FYM93LDK9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Drone\\ View/Frameworks",
+					"$(PROJECT_DIR)/Drone\\ View/Frameworks",
+					"$(PROJECT_DIR)/Drone\\ View/Frameworks",
+				);
 				INFOPLIST_FILE = "Drone View/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nrg.drone.view.Drone-View";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nrg.Drone-View";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -437,6 +650,7 @@
 		};
 		59FC6FC11E6F772600E6B52F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDF8D93B468AE2B265A5FCA /* Pods-Drone ViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +666,7 @@
 		};
 		59FC6FC21E6F772600E6B52F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB677D73A04FC269BCDD2BA /* Pods-Drone ViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +682,7 @@
 		};
 		59FC6FC41E6F772600E6B52F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D02513476E2A0D3A26D371 /* Pods-Drone ViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3FYM93LDK9;
@@ -481,6 +697,7 @@
 		};
 		59FC6FC51E6F772600E6B52F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD59A2C4135E2E9B8C43F031 /* Pods-Drone ViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3FYM93LDK9;
@@ -512,6 +729,7 @@
 				59FC6FBF1E6F772600E6B52F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59FC6FC01E6F772600E6B52F /* Build configuration list for PBXNativeTarget "Drone ViewTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +738,7 @@
 				59FC6FC21E6F772600E6B52F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59FC6FC31E6F772600E6B52F /* Build configuration list for PBXNativeTarget "Drone ViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +747,7 @@
 				59FC6FC51E6F772600E6B52F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
